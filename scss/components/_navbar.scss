@@ -1,0 +1,16 @@
+.navbar-brand {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-marvelred {
+    background-color: $primary-color;
+
+    .tx-whitesmoke {
+        color: $text-color;
+    }
+
+    .tx-whitesmoke:hover {
+        opacity: 50%;
+    }
+}

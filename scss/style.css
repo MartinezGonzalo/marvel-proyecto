@@ -1,0 +1,274 @@
+.navbar-brand {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.bg-marvelred {
+  background-color: #7D0A0A;
+}
+.bg-marvelred .tx-whitesmoke {
+  color: whitesmoke;
+}
+.bg-marvelred .tx-whitesmoke:hover {
+  opacity: 50%;
+}
+
+footer {
+  margin: 2vw;
+}
+footer .nav-link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+body {
+  background-color: #7D0A0A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: 40%;
+  text-align: left;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 20px;
+  color: whitesmoke;
+  text-align: left;
+}
+
+ul {
+  color: whitesmoke;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 20px;
+  text-align: left;
+}
+
+.col-sm-4 div {
+  padding: 50px;
+}
+.col-sm-4 div p {
+  text-align: justify;
+}
+.col-sm-4 div h3 {
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.col-sm-8 {
+  width: 600px;
+  height: 700px;
+}
+
+.container-personajes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-personajes {
+  width: 300px;
+  position: relative;
+  margin: 20px;
+}
+.image-personajes img {
+  width: 100%;
+  display: block;
+}
+
+.content-personajes {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.6s;
+}
+.content-personajes h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+.content-personajes p {
+  font-size: 19px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.content-personajes:hover {
+  opacity: 1;
+}
+
+.datos {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+.datos .dato {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background-color: white;
+}
+.datos .dato:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.datos .dato img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.datos .dato .dato-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.datos .dato .dato-content h2 {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+.datos .dato .dato-content p {
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  padding: 20px;
+  gap: 20px;
+}
+.galeria .imagenes {
+  width: 330px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.galeria .imagenes:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.galeria .imagenes img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.productos {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+.productos .producto {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 600px;
+  background-color: white;
+  margin: 30px;
+}
+.productos .producto img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.productos .producto a {
+  text-decoration: none;
+  background-color: whitesmoke;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  color: black;
+  font-size: 24px;
+}
+.productos .product-content h1 {
+  color: black;
+}
+.productos .product-content p {
+  color: black;
+}
+
+.comunidad h5 {
+  text-align: center;
+}
+.comunidad p {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
+form .input-box {
+  position: relative;
+}
+form .input-box input {
+  width: 30vw;
+  height: 40px;
+  padding: 0 10px;
+  outline: none;
+  border: 3px solid transparent;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+form .input-box input:focus {
+  border-bottom: 3px solid black;
+}
+form .input-box textarea {
+  width: 30vw;
+  height: 130px;
+  padding: 10px;
+  border: 3px solid transparent;
+  outline: none;
+  letter-spacing: 1.5px;
+  transition: 0.3s;
+}
+form .input-box textarea:focus {
+  border-bottom: 3px solid black;
+}
+form button {
+  padding: 10px;
+  width: 20vw;
+  outline: none;
+  border: none;
+  transition: 0.1s;
+  cursor: pointer;
+  font-size: 1rem;
+}
+form button:hover {
+  opacity: 50%;
+}/*# sourceMappingURL=style.css.map */
