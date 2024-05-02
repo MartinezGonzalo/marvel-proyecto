@@ -97,12 +97,12 @@ ul {
   left: 0%;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   opacity: 0;
   transition: 0.6s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .content-personajes h1 {
   font-size: 45px;
