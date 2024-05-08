@@ -197,9 +197,10 @@ ul {
   height: 600px;
   background-color: white;
   margin: 30px;
+  padding: 10px;
 }
 .productos .producto:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.5s;
 }
 .productos .producto img {
